@@ -3,80 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Form</title>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap" rel="stylesheet">
-    <style>
-        body {
-            font-family: 'Poppins', sans-serif;
-            background-color: #f3f4f6;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            height: 100vh;
-            margin: 0;
-        }
-
-        form {
-            background-color: #ffffff;
-            padding: 30px;
-            border-radius: 10px;
-            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-            width: 100%;
-            max-width: 450px;
-        }
-
-        label {
-            display: block;
-            font-weight: 400;
-            margin-bottom: 10px;
-        }
-
-        input, textarea {
-            width: 100%;
-            padding: 10px;
-            margin-bottom: 20px;
-            border: 1px solid #e0e0e0;
-            border-radius: 5px;
-            font-size: 16px;
-            font-family: 'Poppins', sans-serif;
-            transition: border-color 0.3s;
-        }
-
-        input:focus, textarea:focus {
-            border-color: #5c6bc0;
-            outline: none;
-        }
-
-        input[type="submit"] {
-            cursor: pointer;
-            background-color: #5c6bc0;
-            color: #ffffff;
-            border: none;
-            border-radius: 5px;
-            padding: 10px 20px;
-            font-size: 16px;
-            transition: background-color 0.3s;
-        }
-
-        input[type="submit"]:hover {
-            background-color: #344495;
-        }
-    </style>
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <header>
+        <div class="container">
+            <h1>John Doe</h1>
+            <p>Software Developer | Problem Solver | Innovator</p>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
-<form action="https://formspree.io/f/xleyapvn" method="post">
-    <label for="email">Your Email:</label>
-    <input type="email" name="email" required>
+    <section id="about" class="container">
+        <h2>About Me</h2>
+        <p>I am a computer science student at Rutgers University, specializing in software development and problem-solving. With a focus on backend development, I am passionate about building efficient systems and developing innovative solutions to complex problems.</p>
+    </section>
 
-    <label for="subject">Subject:</label>
-    <input type="text" name="subject" required>
+    <section id="projects" class="container">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Election Analysis Tool</h3>
+            <p>Developed backend algorithms for an election data analysis application using Java and linked lists. This project focused on optimizing data retrieval and storage.</p>
+        </div>
+        <div class="project">
+            <h3>Portfolio Website</h3>
+            <p>A personal website created using HTML, CSS, and JavaScript to showcase my projects, skills, and contact information.</p>
+        </div>
+    </section>
 
-    <label for="message">Message:</label>
-    <textarea name="message" rows="5" required></textarea>
+    <section id="contact" class="container">
+        <h2>Contact</h2>
+        <form action="https://formspree.io/f/xleyapvn" method="post">
+            <label for="email">Your Email:</label>
+            <input type="email" name="email" required>
 
-    <input type="submit" value="Submit">
-</form>
+            <label for="subject">Subject:</label>
+            <input type="text" name="subject" required>
 
+            <label for="message">Message:</label>
+            <textarea name="message" rows="5" required></textarea>
+
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2024 John Doe. All rights reserved.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
 </body>
 </html>

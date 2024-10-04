@@ -90,6 +90,12 @@ h2 {
     text-align: center;
 }
 
+.education-grid {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
 .education-card {
     background-color: white;
     padding: 20px;

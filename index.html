@@ -3,105 +3,308 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pratyush Pathak</title>
+    <title>Pratyush Pathak | Software Developer</title>
+    
     <link rel="stylesheet" href="styles.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    
+    <script src="scripts.js" defer></script>
 </head>
 <body>
-    <header>
-        <div class="container">
-            <h1>Pratyush Pathak</h1>
-            <p>Software Developer | Fast Learner | Computer Science Student</p>
-            <nav>
-                <ul>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#education">Education</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
 
-    <section id="about" class="container">
-        <h2>About Me</h2>
-        <div class="about-cards">
-            <div class="card">
-                <h3>Education</h3>
-                <p>Computer Science student at Rutgers University with a passion for problem-solving and innovative software development.</p>
-            </div>
-            <div class="card">
-                <h3>Skills</h3>
-                <ul>
-                    <li>Java</li>
-                    <li>Data Structures & Algorithms</li>
-                    <li>Problem Solving and Collaborating</li>
-                </ul>
-            </div>
-            <div class="card">
-                <h3>Interests</h3>
-                <p>Technology, programming, debugging, solving problems, and creating efficient programs.</p>
-            </div>
+    <nav class="sidebar-nav">
+        <div class="nav-header">
+            <h3>Pratyush Pathak</h3>
+            <p>B.S. Computer Science</p>
+            <p>Rutgers University</p>
         </div>
-    </section>
-
-    <section id="projects" class="container">
-        <h2>Projects</h2>
-        <div class="projects-grid">
-            <div class="project-card">
-                <h3>Image Resizer</h3>
-                <p>Developepd a full-stack cross-platform interactive and responsive Electron application to resize images. Used JavaScript, CSS and HTML inside the Electron framework.</p>
-            </div>
-            <div class="project-card">
-                <h3>Python 2048 Game</h3>
-                <p>Developed an interactive 2048 puzzle game using Python and Pygame, implementing key features such as smooth tile movements, merging mechanics, and a responsive game grid.</p>
-            </div>
-            <div class="project-card">
-                <h3>Election Analysis Tool</h3>
-                <p>A Java-based tool to analyze election datasets using linked lists for vote counting and trend analysis. Focused on optimizing data structures for fast, efficient processing.</p>
-            </div>
-            <div class="project-card">
-                <h3>Personal Website</h3>
-                <p>Designed a responsive personal portfolio using HTML, CSS, and JavaScript to showcase projects and allow easy contact.</p>
-            </div>
+        <ul class="nav-menu">
+            <li><a href="#home" class="nav-link active"><i class="fa-solid fa-house"></i><span>Home</span></a></li>
+            <li><a href="#about" class="nav-link"><i class="fa-solid fa-user"></i><span>About</span></a></li>
+            <li><a href="#skills" class="nav-link"><i class="fa-solid fa-laptop-code"></i><span>Skills</span></a></li>
+            <li><a href="#experience" class="nav-link"><i class="fa-solid fa-briefcase"></i><span>Experience</span></a></li>
+            <li><a href="#projects" class="nav-link"><i class="fa-solid fa-microchip"></i><span>Projects</span></a></li>
+            <li><a href="#education" class="nav-link"><i class="fa-solid fa-graduation-cap"></i><span>Education</span></a></li>
+            <li><a href="#contact" class="nav-link"><i class="fa-solid fa-envelope"></i><span>Contact</span></a></li>
+        </ul>
+        <div class="nav-footer">
+            <a href="https://linkedin.com/in/pratyushpthk" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+            <a href="mailto:pathak.pratyush04@gmail.com" aria-label="Email"><i class="fa-solid fa-paper-plane"></i></a>
         </div>
-    </section>
+    </nav>
 
-    <section id="education" class="container">
-        <h2>Education</h2>
-        <div class="education-grid">
-            <div class="education-card">
-                <h3>Rutgers University - New Brunswick (2023 - Current)</h3>
-                <p>Dean's List every semester completed. Engaged in a world-class, rigorous computer science curriculum, building strong programming and problem-solving abilities.
+    <main class="main-content">
+
+        <section id="home" class="hero-section">
+            <div class="hero-text">
+                <h1 class="hero-name">Pratyush Pathak</h1>
+                <p class="hero-subtitle">Software Developer & Computer Science Student</p>
+                <p class="hero-description">
+                    Rutgers CS student with a 3.9 Major GPA, specializing in data structures, systems programming, and software engineering. Passionate about building efficient and scalable solutions.
                 </p>
+                <a href="#contact" class="cta-button">Get in Touch</a>
+                <a href="2025_Resume.pdf" target="_blank" class="cta-button-secondary">View Resume</a>
             </div>
-            <div class="education-card">
-                <h3>John P. Stevens High School (2019 - 2023)</h3>
-                <p>Completed a rigorous curriculum, including multiple AP courses and advanced computer science electives. Demonstrated academic excellence and strong analytical skills. Graduated with a 3.9 GPA.
-                </p>
+        </section>
+
+        <section id="about" class="content-section">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-container">
+                <div class="about-text">
+                    <p>I am a highly motivated Computer Science student at Rutgers University, consistently named to the Dean's List and a recipient of the SAS Excellence Scholarship. My academic focus is on foundational and advanced topics including Data Structures, Systems Programming, and Software Engineering.</p>
+                    <p>Outside the classroom, I work as a Mathematics Learning Assistant, where I lead collaborative sessions for 20+ students and partner with faculty to design data-driven learning interventions. This role has sharpened my ability to communicate complex technical ideas and mentor peers in logic-based problem-solving. I am driven by a passion for debugging, creating efficient programs, and tackling challenging problems.</p>
+                </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <section id="contact" class="container">
-        <h2>Contact</h2>
-        <form action="https://formspree.io/f/xleyapvn" method="post">
-            <label for="email">Your Email:</label>
-            <input type="email" name="email" required>
+        <section id="skills" class="content-section">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-container">
+                <div class="skill-category">
+                    <h3>Languages</h3>
+                    <div class="skill-tags">
+                        <span>Java</span>
+                        <span>Python</span>
+                        <span>C/C++</span>
+                        <span>JavaScript</span>
+                        <span>TypeScript</span>
+                        <span>SQL</span>
+                        <span>HTML/CSS</span>
+                        <span>Bash Scripting</span>
+                        <span>R</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Frameworks & Libraries</h3>
+                    <div class="skill-tags">
+                        <span>Node.js</span>
+                        <span>React.js</span>
+                        <span>Express.js</span>
+                        <span>Spring Boot</span>
+                        <span>JavaFX</span>
+                        <span>TensorFlow</span>
+                        <span>Keras</span>
+                        <span>NumPy</span>
+                        <span>Pandas</span>
+                        <span>Matplotlib</span>
+                        <span>Scikit-learn</span>
+                        <span>Pygame</span>
+                        <span>JUnit</span>
+                        <span>Selenium</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Tools & Platforms</h3>
+                    <div class="skill-tags">
+                        <span>Git & GitHub</span>
+                        <span>Docker</span>
+                        <span>Kubernetes</span>
+                        <span>AWS</span>
+                        <span>Oracle Cloud</span>
+                        <span>Firebase</span>
+                        <span>Linux</span>
+                        <span>SSH</span>
+                        <span>Jenkins</span>
+                        <span>Jira</span>
+                        <span>Postman</span>
+                        <span>VS Code</span>
+                        <span>IntelliJ</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Databases & Concepts</h3>
+                    <div class="skill-tags">
+                        <span>MySQL</span>
+                        <span>PostgreSQL</span>
+                        <span>SQLite</span>
+                        <span>MongoDB</span>
+                        <span>Redis</span>
+                        <span>REST APIs</span>
+                        <span>Agile Methodologies</span>
+                        <span>CI/CD</span>
+                        <span>Unit Testing</span>
+                        <span>Data Structures</span>
+                        <span>Algorithms</span>
+                        <span>OOP</span>
+                        <span>System Design</span>
+                        <span>Cloud Deployment</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="experience" class="content-section">
+            <h2 class="section-title">Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">Sep 2025 - Present</div>
+                    <div class="timeline-content">
+                        <h3>Mathematics Learning Assistant</h3>
+                        <p class="timeline-company">Rutgers University - New Brunswick, NJ</p>
+                        <ul>
+                            <li>Lead weekly collaborative learning sessions for 20+ Precalculus students, facilitating problem-solving and conceptual understanding.</li>
+                            <li>Partner with faculty to design and implement data-driven learning interventions that enhance student engagement.</li>
+                            <li>Mentor peers in logic-based problem decomposition and systematic reasoning.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-            <label for="subject">Subject:</label>
-            <input type="text" name="subject" required>
+        <section id="projects" class="content-section">
+            <h2 class="section-title">Projects</h2>
+            <div class="project-grid">
+                <div class="project-card">
+                    <div class="project-header">
+                        <i class="fa-solid fa-car-side"></i>
+                        <h3>Car Rental System</h3>
+                    </div>
+                    <p class="project-description">A comprehensive fleet management system supporting vehicle reservations, trip tracking, and cost reporting across multiple campuses.</p>
+                    <div class="project-tech">
+                        <span>Java</span>
+                        <span>JavaFX</span>
+                        <span>MVC</span>
+                        <span>Data Structures</span>
+                        <span>JUnit</span>
+                        <span>Git</span>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-header">
+                        <i class="fa-solid fa-pencil-alt"></i>
+                        <h3>Handwritten Digit Classifier</h3>
+                    </div>
+                    <p class="project-description">Built and trained a CNN on the MNIST dataset to classify digits with 98% test accuracy, extended with a GUI for real-time drawing and prediction.</p>
+                    <div class="project-tech">
+                        <span>Python</span>
+                        <span>TensorFlow</span>
+                        <span>NumPy</span>
+                        <span>Matplotlib</span>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-header">
+                        <i class="fa-solid fa-microchip"></i>
+                        <h3>CPU and Cache Simulator</h3>
+                    </div>
+                    <p class="project-description">Simulated a single-cycle RV64I CPU and a 5-stage execution pipeline. Implemented a direct-mapped data cache with block fill and writeback utilities.</p>
+                    <div class="project-tech">
+                        <span>C</span>
+                        <span>Computer Architecture</span>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-header">
+                        <i class="fa-solid fa-chart-line"></i>
+                        <h3>Stock Market Analysis Tool</h3>
+                    </div>
+                    <p class="project-description">Developed a Python app using Pandas and NumPy to fetch, analyze, and visualize historical stock data. Implemented moving averages and technical indicators.</p>
+                    <div class="project-tech">
+                        <span>Python</span>
+                        <span>Pandas</span>
+                        <span>NumPy</span>
+                        <span>Matplotlib</span>
+                        <span>REST APIs</span>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-header">
+                        <i class="fa-solid fa-gamepad"></i>
+                        <h3>2048 Game</h3>
+                    </div>
+                    <p class="project-description">Developed a playable version of 2048 with smooth animations, a scoring system, and restart mechanics, optimizing tile merging logic.</p>
+                    <div class="project-tech">
+                        <span>Python</span>
+                        <span>Pygame</span>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-            <label for="message">Message:</label>
-            <textarea name="message" rows="5" required></textarea>
+        <section id="education" class="content-section">
+            <h2 class="section-title">Education</h2>
+            <div class="education-container">
+                <div class="education-card">
+                    <h3>Rutgers University</h3>
+                    <p class="education-degree">Bachelor of Science in Computer Science</p>
+                    <p class="education-date">Sep 2023 – May 2027 | New Brunswick, NJ</p>
+                    <ul>
+                        <li><strong>Cumulative GPA:</strong> 3.85, <strong>Major GPA:</strong> 3.9</li>
+                        <li><strong>Honors:</strong> Dean's List (every semester), SAS Excellence Scholarship</li>
+                        <li><strong>Relevant Coursework:</strong> Data Structures, Data Science, Systems Programming, Computer Architecture, Software Engineering</li>
+                    </ul>
+                </div>
+                <div class="education-card">
+                    <h3>John P. Stevens High School</h3>
+                    <p class="education-degree">High School Diploma</p>
+                    <p class="education-date">Graduated Jun 2023 | Edison, NJ</p>
+                    <ul>
+                        <li>Graduated with a 3.9 GPA after a rigorous curriculum including multiple APs and advanced computer science electives.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
 
-            <input type="submit" value="Submit">
-        </form>
-    </section>
+        <section id="contact" class="content-section">
+            <h2 class="section-title">Get in Touch</h2>
+            <div class="contact-container">
+                <div class="contact-text">
+                    <p>I'm actively seeking internship opportunities and am always open to connecting with new people. Whether you have a question, a project idea, or just want to connect, feel free to reach out!</p>
+                    <div class="contact-methods">
+                        <div class="contact-method">
+                            <i class="fa-solid fa-envelope"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <a href="mailto:pathak.pratyush04@gmail.com">pathak.pratyush04@gmail.com</a>
+                            </div>
+                        </div>
+                         <div class="contact-method">
+                            <i class="fa-brands fa-linkedin"></i>
+                            <div>
+                                <h4>LinkedIn</h4>
+                                <a href="https://linkedin.com/in/pratyushpthk" target="_blank">linkedin.com/in/pratyushpthk</a>
+                            </div>
+                        </div>
+                        <div class="contact-method">
+                            <i class="fa-solid fa-phone"></i>
+                            <div>
+                                <h4>Phone</h4>
+                                <span>469-847-8033</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form" action="https://formspree.io/f/xleyapvn" method="post">
+                    <h3>Send me a message</h3>
+                    <div class="form-group">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Your Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="cta-button">Submit</button>
+                </form>
+            </div>
+        </section>
 
-    <footer>
-        <p>© 2024 Pratyush Pathak. All rights reserved.</p>
-    </footer>
+        <footer class="main-footer">
+            <p>© 2025 Pratyush Pathak. Designed and built from scratch.</p>
+        </footer>
+        
+    </main>
 
-    <script src="scripts.js"></script>
 </body>
 </html>

@@ -1,59 +1,48 @@
-<div align="center">
+# Personal Portfolio Website
 
-# 🌐 Pratyush Pathak's Personal Website
+A modern, responsive portfolio website showcasing my skills, projects, and experience as a software developer.
 
-### *A Modern, Responsive Portfolio Showcasing Skills, Projects & Experience*
+**Live Demo:** [pratyushpathak.com](https://pratyushpathak.com)
 
-[![Live Demo](https://img.shields.io/badge/Live-pratyushpathak.com-blue?style=for-the-badge&logo=google-chrome&logoColor=white)](https://pratyushpathak.com)
-[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)]()
-[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)]()
-[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)]()
-[![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)]()
+## Features
 
-[View Live Demo](https://pratyushpathak.com) • [Report Bug](https://github.com/PratyushPathak/Personal-Website/issues) • [Request Feature](https://github.com/PratyushPathak/Personal-Website/issues)
+- Clean, professional design with light/dark mode
+- Fully responsive across all devices
+- Smooth scroll navigation
+- Contact form with async submission
+- Fast-loading static site
 
-</div>
+## Tech Stack
 
----
+- HTML5, CSS3, Vanilla JavaScript
+- Google Fonts (Inter)
+- Formspree (contact form backend)
 
-## 📋 About The Project
+## Project Structure
 
-A meticulously crafted personal portfolio website built from scratch to showcase my journey as a Computer Science student at Rutgers University. The website features a clean, modern design with smooth navigation and an intuitive user experience.
+```
+├── index.html          # Main page
+├── css/
+│   └── styles.css      # Stylesheet
+├── js/
+│   └── main.js         # JavaScript
+├── assets/
+│   ├── favicons/       # Favicon files
+│   └── Resume.pdf
+├── CNAME
+└── README.md
+```
 
-### ✨ Key Features
+## Getting Started
 
-- **🎨 Modern Design** - Clean, professional interface with elegant typography.
-- **📱 Fully Responsive** - Seamless experience across all devices and screen sizes.
-- **🌗 Light/Dark Mode** - User-toggleable theme that respects system preference and saves to local storage.
-- **🧭 Smooth Navigation** - Sticky top-bar navigation that highlights the active section.
-- **💼 Comprehensive Sections** - Home, About, Skills, Experience, Projects, Education, and Contact.
-- **📬 AJAX Contact Form** - Integrated Formspree form with asynchronous submission and on-page success/error status.
-- **⚡ Performance Optimized** - Lightweight and fast-loading static site.
-- **🔗 Social Integration** - Direct links to LinkedIn, GitHub, and email.
+No build tools required. Simply open `index.html` in a browser or use a local server:
 
----
+```bash
+python -m http.server 8000
+```
 
-## 🛠️ Built With
+Then visit `http://localhost:8000`
 
-This project leverages modern web technologies for optimal performance and maintainability:
+## License
 
-- **HTML5** - Semantic markup for structure
-- **CSS3** - Custom styling with modern features (Flexbox, Grid, Variables, Light/Dark Mode)
-- **JavaScript** - Vanilla JS for interactivity (AJAX, Theme Toggle, Smooth Scroll)
-- **Font Awesome** - Icon library for visual elements
-- **Google Fonts** - Poppins & Lato for elegant typography
-- **Formspree** - Contact form backend integration
-
----
-
-## 🚀 Getting Started
-
-### Prerequisites
-
-No build tools or dependencies required! This is a pure static website.
-
-### Installation
-
-1. Clone the repository
-   ```bash
-   git clone [https://github.com/PratyushPathak/Personal-Website.git](https://github.com/PratyushPathak/Personal-Website.git)
+MIT

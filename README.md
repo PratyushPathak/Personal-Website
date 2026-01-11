@@ -32,17 +32,3 @@ A modern, responsive portfolio website showcasing my skills, projects, and exper
 ├── CNAME
 └── README.md
 ```
-
-## Getting Started
-
-No build tools required. Simply open `index.html` in a browser or use a local server:
-
-```bash
-python -m http.server 8000
-```
-
-Then visit `http://localhost:8000`
-
-## License
-
-MIT
